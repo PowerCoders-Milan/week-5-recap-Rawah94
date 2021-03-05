@@ -1,0 +1,44 @@
+.header {
+    text-align: center;
+    background: #d1a221;
+  }
+  .boxes {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-between;
+    align-content: center;
+ }
+
+ .box1 {
+    background-color: #ee9c9c;
+    width: 500px;
+    height: 400px;
+ }
+
+ .box2 {
+    background-color: #c7b45f;  
+    width: 500px;
+    height: 400px;
+}
+
+
+.box3 {
+    background-color: #f1f376;  
+    width: 500px;
+    height: 400px; 
+}
+
+
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(128, 118, 118);
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
